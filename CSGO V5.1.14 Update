@@ -1,0 +1,37 @@
+Legitbot
+Fixed auto pistol delaying triggerbot.
+
+Ragebot
+Added "Closest To Crosshair" target selection.
+Fixed instances where the ragebot would not shoot at shifted targets.
+Fixed fastduck being active when fakeduck is active but not in use.
+Fixed auto-stop activating when it's not possible to shoot.
+Updated auto-peek indicator visual.
+
+Visuals
+Reworked cheat rendering - should be more performant.
+Fixed potential ghost dormant issue.
+On Shot chams now show with knife attacks.
+Fixed grenade tracer not respecting alpha.
+Grenade tracer color fading is now optional.
+Fixed spectator origin on radar.
+
+Skin Changer
+Allow default skins as a paintkit option.
+StatTrak now matches the value it is set to.
+Knives will now have their star.
+
+Misc
+Peek fakelag will now behave correctly with other options.
+Allow fakelag overrides (triggers).
+
+UI
+Lua editor line count is now correct on wrapped lines.
+Fixed bind option for Skin Changer master enable.
+Added cham master toggle.
+
+Lua
+Lua permissions now save/load correctly.
+
+Security
+Several internal changes to prevent future issues.
